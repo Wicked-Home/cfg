@@ -117,4 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 ## Setting up git for my dotfiles
-alias config='/usr/bin/git --git-dir=/home/wix/.cfg/ --work-tree=/home/wix'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
