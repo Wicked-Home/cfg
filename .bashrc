@@ -118,3 +118,4 @@ fi
 
 ## Setting up git for my dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+eval "$(starship init bash)"
